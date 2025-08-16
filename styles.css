@@ -197,3 +197,13 @@ p {
     font-weight: bold;
     font-family: Arial;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    font-family: Arial;
+}

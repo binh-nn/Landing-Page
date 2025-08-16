@@ -77,7 +77,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px 256px 0px 256px;
+    padding: 25px 256px 100px 256px;
 }
 
 .body-top {
@@ -97,6 +97,7 @@ body {
     align-items: center;
     text-align: center;
     width: 120px;
+    gap: 12px;
 }
 
 .card-img {
@@ -109,5 +110,36 @@ body {
 
 .card-text {
     margin: 0;
+    font-size: 16px;
     color: #616a77;
+}
+
+.body-2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 256px 64px 256px;
+
+}
+
+.body-container {
+    width: 640px;
+}
+
+.quote {
+    margin: 0;
+    font-family: Arial;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.quote-author {
+    margin: 0px;
+    color: #1f2937;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }

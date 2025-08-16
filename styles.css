@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 256px;
+    padding: 0px 256px 100px 256px;
 }
 
 .motive {
@@ -59,4 +59,55 @@ body {
 .description {
     color: #e5e7eb;
     font-family: Arial;
+    width: 390px;
+}
+
+.hero-button {
+    background-color: #3b82f6;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    width: 104px;
+    height: 36px;
+}
+
+.body-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 256px 0px 256px;
+}
+
+.body-top {
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.body-bottom {
+    display: flex;
+    gap: 84px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+}
+
+.card-img {
+    border-style: solid;
+    border-color: #498af6;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+.card-text {
+    margin: 0;
+    color: #616a77;
 }
